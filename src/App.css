@@ -1,0 +1,74 @@
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.steps-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 25px;
+}
+
+.form-cell {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.steps-input {
+  border: 2px solid rgb(0, 0, 0);
+  height: 20px;
+  border-radius: 7px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.steps-btn {
+  height: 42px;
+  width: 60px;
+  border: 2px solid #000000;
+  border-radius: 7px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.table-headers {
+  padding: 0 20px;
+}
+
+.steps-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-headers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  padding: 5px 25px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  min-height: 50px;
+}
+
+.table-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-item-btn {
+  background: transparent;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
